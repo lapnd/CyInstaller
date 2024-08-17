@@ -9,8 +9,8 @@ setup(
     version=version,
     package_dir={"": "src"},
     packages=find_packages(where="src"),
+    python_requires=">=3.8,<3.13",  # Specify Python version constraints here
     install_requires=[
-        "python>=3.8,<3.13",
         "click>=8.1.7",
         "cython>=3.0.10",
         "pyinstaller>=6.5.0",

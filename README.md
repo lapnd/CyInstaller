@@ -18,8 +18,7 @@ Install and update using `pip`:
 
 Install and update from source code:
 ```sh
-  poetry build
-  pip install dist/cyinstaller-1.2.0-py3-none-any.whl
+  python setup.py install
 ```
 
 Quickstart
