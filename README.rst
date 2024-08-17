@@ -16,6 +16,12 @@ Install and update using `pip`_:
 
     pip install -U CyInstaller
 
+Install and update from source code:
+.. code-block:: text
+
+    poetry build
+    pip install dist/cyinstaller-1.2.0-py3-none-any.whl
+
 Quickstart
 ----------
 
